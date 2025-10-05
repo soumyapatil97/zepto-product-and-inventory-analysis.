@@ -20,7 +20,6 @@ Key SQL Analyses
 Best Value Products (Price per Gram)
 
 sql
-Copy code
 SELECT name, category, 
        ROUND((discountedSellingPrice/100.0)/weightInGms, 4) AS price_per_gram
 FROM zepto
@@ -30,7 +29,6 @@ LIMIT 10;
 Category-Level Insights
 
 sql
-Copy code
 SELECT category, 
        ROUND(AVG(discountPercent), 2) AS avg_discount,
        SUM(availableQuantity) AS total_stock
