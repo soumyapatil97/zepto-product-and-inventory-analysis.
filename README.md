@@ -1,4 +1,4 @@
-# zepto-product-and-inventory-analysis.
+Zepto E-commerce sales analysis
 This project analyzes product, pricing, and inventory data from a Zepto-style dataset using **MySQL**.   The goal was to clean, transform, and extract insights from over **3,700 product records** across multiple categories.
  *Data Cleaning Steps*
 - Standardized column names (e.g., `discountPercent` → `discount_percent`)
